@@ -1,0 +1,6 @@
+Fin = open ( "aplusbb.in" )
+Fout = open ( "aplusbb.out", "w" )
+a, b = map(int, Fin.readline().split())
+print(a + b*b, file=Fout)
+Fout.close()
+Fin.close()
